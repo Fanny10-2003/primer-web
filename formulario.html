@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+<title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+ <form action="otroHtml.html" method="post">  
+    <p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
+    <p><label for="email">Email: <input type="email" id="email"></label></p>
+    <p><label for="edad">Edad: <input type="number" id="edad"></label></p>
+    <p><label for="observacion">Observacion: <textarea id="observacion"></textarea>
+    </label></p>
+
+    <p><label>Estatura:
+        <select id="estatura">
+            <option value="<1.50"> <1.50 </option>
+            <option value="1.51-1.60"> 1.51-1.60</option>
+            <option value="1.61-1.70" selected> 1.61-1.70</option>
+            <option value=">1.71 -1.80"> >1.71 -1.80</option>
+            <option value=">1.80" disabled> >1.80</option>
+        </select>
+    </label></p>
+
+    <p><b>Color de ojos:</b></p>
+    <input type="radio" name="color-ojos" value="marron">
+        <label>Marron</label> <br>
+    <input type="radio" name="color-ojos" value="azul">
+        <label>Azul</label> <br>
+    <input type="radio" name="color-ojos" value="verde">        
+        <label>Verde</label> <br>
+    <input type="radio" name="color-ojos" value="negro">
+        <label>Negro</label> <br>
+    <input type="radio" name="color-ojos" value="otro">
+        <label>Otro</label> <br>
+        
+    <button type="submit">Enviar</button>
+    
+</form>
+    
+</body>
+</html>
